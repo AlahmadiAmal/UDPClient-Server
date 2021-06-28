@@ -26,7 +26,7 @@ public class UdpClient{
 
 public static void main(String[] args) throws Exception {
         
-  String ServerName = "192.168.100.125";// IP address of the server
+  String ServerName = " ";// IP address of the server
   int port = 8000;// port number 
                
   DatagramSocket socket = new DatagramSocket();//create socket
